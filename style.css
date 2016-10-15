@@ -1,0 +1,47 @@
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #FFF;
+  background-color: #55ACEE;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  padding: 20px;
+  font-weight: 300;
+}
+
+#country-name {
+  background: #FFF;
+  border: 2px solid #006699;
+  height: 30px;
+}
+
+li {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: 2px solid white;
+  height: 35px;
+  width: 200px;
+  background: #55ACEE;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  background-image: linear-gradient(45deg, #006699 50%, transparent 50%);
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+button:hover {
+  background-position: 0 100%
+}
